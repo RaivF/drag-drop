@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>drag & drop</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<section class="droper">
+			<div class="drop-container">
+				<div id="dropZone" class="drop-zone">
+					<div class="drag" id="drag">
+						<img src="./3IxPnb_iFOs.png" alt="" />
+						<span>Drag and Drop</span>
+						<div class="border">
+							<div></div>
+							<span>or</span>
+							<div></div>
+						</div>
+					</div>
+
+					<div class="drop" id="drop">Отпустите файлы для загрузки</div>
+					<div class="dropped" id="dropped">Файл загружен</div>
+					<div class="upload-file-container" id="upload-file-container">
+						<label for="upload-file">Browse File</label>
+						<input type="file" name="file" id="upload-file" />
+					</div>
+				</div>
+			</div>
+
+			<div class="file-info-container">
+				<div class="file-preview" id="file-preview">
+					<!-- <img id="file-preview-img"  src="" alt="ы" /> -->
+					<div class="file-info">
+						<span class="file-name" id="file-name"> name</span>
+						<span class="file-size" id="ile-size"> 144мб</span>
+					</div>
+				</div>
+				<div class="procent-and-close">
+					<div class="procent" id="procent">0%</div>
+					<button class="close" id="close">X</button>
+				</div>
+			</div>
+		</section>
+		<script src="./main.js"></script>
+	</body>
+</html>
